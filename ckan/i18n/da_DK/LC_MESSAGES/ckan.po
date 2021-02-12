@@ -444,7 +444,7 @@ msgstr ""
 #: ckanext/example_theme_docs/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html:20
 #: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html:19
 msgid "This group has no description"
-msgstr "Denne gruppe har ingen beskrivelse"
+msgstr "Dette miljøtema har ingen beskrivelse"
 
 #: ckan/templates/group/snippets/group_item.html:32
 #: ckan/templates/organization/snippets/organization_item.html:31
@@ -659,12 +659,12 @@ msgstr "Ingen bedømmelser"
 #: ckanext/stats/templates/ckanext/stats/index.html:37
 #: ckanext/stats/templates/ckanext/stats/index.html:109
 msgid "Largest Groups"
-msgstr "Største grupper"
+msgstr "Største miljøtemaer"
 
 #: ckan/logic/converters.py:174 ckan/logic/validators.py:268
 #: ckanext/stats/templates/ckanext/stats/index.html:42
 msgid "Group"
-msgstr "Gruppe"
+msgstr "Miljøtema"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:43
 msgid "Number of datasets"
@@ -672,16 +672,16 @@ msgstr "Antal datasæt"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:56
 msgid "No groups"
-msgstr "Ingen grupper"
+msgstr "Ingen miljøtemaer"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:61
 #: ckanext/stats/templates/ckanext/stats/index.html:110
 msgid "Top Tags"
-msgstr "Top tags"
+msgstr "Top opgavetyper"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:65
 msgid "Tag Name"
-msgstr "Tag-navn"
+msgstr "Opgavetype navn"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:66
 #: ckanext/stats/templates/ckanext/stats/index.html:86
@@ -810,7 +810,7 @@ msgstr "Sitets tag-logo"
 #: ckan/templates/organization/read_base.html:19
 #: ckan/templates/user/edit_user_form.html:14
 msgid "About"
-msgstr "Om"
+msgstr "Om Miljøstyrelsens Datakatalog"
 
 #: ckan/controllers/admin.py:54 ckan/templates/admin/config.html:25
 msgid "About page text"
@@ -909,7 +909,7 @@ msgstr "Fejl på de forespurgte data: %s"
 #: ckan/views/group.py:929 ckan/views/group.py:950 ckan/views/group.py:969
 #: ckan/views/group.py:1029 ckan/views/group.py:1099
 msgid "Group not found"
-msgstr "Gruppe ikke fundet"
+msgstr "Miljøtema ikke fundet"
 
 #: ckan/controllers/feed.py:247 ckan/logic/action/create.py:1468
 #: ckan/views/feed.py:223
@@ -918,7 +918,7 @@ msgstr ""
 
 #: ckan/controllers/group.py:131 ckan/controllers/group.py:593
 msgid "Incorrect group type"
-msgstr "Ukorrekt gruppetype"
+msgstr "Ukorrekt miljøtematype"
 
 #: ckan/controllers/group.py:317 ckan/controllers/home.py:61
 #: ckan/controllers/package.py:256 ckan/lib/helpers.py:1249
@@ -948,7 +948,7 @@ msgstr "Organisationer"
 #: ckan/tests/config/test_middleware.py:120 ckan/views/dataset.py:285
 #: ckan/views/group.py:305 ckan/views/home.py:50
 msgid "Groups"
-msgstr "Grupper"
+msgstr "Miljøtemaer"
 
 #: ckan/controllers/group.py:319 ckan/controllers/home.py:63
 #: ckan/controllers/package.py:258 ckan/lib/helpers.py:1251
@@ -959,13 +959,13 @@ msgstr "Grupper"
 #: ckan/templates/tag/index.html:12 ckan/views/dataset.py:286
 #: ckan/views/group.py:306 ckan/views/home.py:51
 msgid "Tags"
-msgstr "Tags"
+msgstr "Opgavetyper"
 
 #: ckan/controllers/group.py:320 ckan/controllers/home.py:64
 #: ckan/controllers/package.py:259 ckan/lib/helpers.py:1252
 #: ckan/views/dataset.py:287 ckan/views/group.py:307 ckan/views/home.py:52
 msgid "Formats"
-msgstr "Formater"
+msgstr "Ressourcetyper"
 
 #: ckan/controllers/group.py:321 ckan/controllers/home.py:65
 #: ckan/controllers/package.py:260 ckan/lib/helpers.py:1253
@@ -991,7 +991,7 @@ msgstr "Ikke autoriseret til at udføre masseopdatering"
 #: ckan/controllers/group.py:473 ckan/views/group.py:838
 #: ckan/views/group.py:927
 msgid "Unauthorized to create a group"
-msgstr "Ikke autoriseret til at oprette en gruppe"
+msgstr "Ikke autoriseret til at oprette et miljøtema"
 
 #: ckan/controllers/group.py:551 ckan/controllers/group.py:581
 #: ckan/controllers/package.py:947 ckan/controllers/package.py:995
@@ -1012,7 +1012,7 @@ msgstr "Bruger %r ikke autoriseret til at redigere rettighederne %s"
 #: ckan/views/group.py:1010 ckan/views/group.py:1027
 #, python-format
 msgid "Unauthorized to delete group %s"
-msgstr "Ikke autoriseret til at slette gruppe %s"
+msgstr "Ikke autoriseret til at slette miljøtema %s"
 
 #: ckan/controllers/group.py:633 ckan/views/group.py:1019
 msgid "Organization has been deleted."
@@ -1020,7 +1020,7 @@ msgstr "Organisationen er blevet slettet."
 
 #: ckan/controllers/group.py:635 ckan/views/group.py:1021
 msgid "Group has been deleted."
-msgstr "Gruppen er blevet slettet."
+msgstr "Miljøtemaet er blevet slettet."
 
 #: ckan/controllers/group.py:637 ckan/views/group.py:1024
 #, python-format
@@ -1040,17 +1040,17 @@ msgstr ""
 #: ckan/controllers/group.py:724 ckan/views/group.py:1097
 #, python-format
 msgid "Unauthorized to add member to group %s"
-msgstr "Ikke autoriseret til at føje et medlem til gruppe %s"
+msgstr "Ikke autoriseret til at føje et medlem til miljøtema %s"
 
 #: ckan/controllers/group.py:743 ckan/controllers/group.py:756
 #: ckan/views/group.py:567 ckan/views/group.py:588
 #, python-format
 msgid "Unauthorized to delete group %s members"
-msgstr "Ikke autoriseret til at slette gruppe %s medlemmer"
+msgstr "Ikke autoriseret til at slette miljøtema %s medlemmer"
 
 #: ckan/controllers/group.py:750 ckan/views/group.py:576
 msgid "Group member has been deleted."
-msgstr "Gruppemedlem er blevet slettet."
+msgstr "Miljøtemamedlem er blevet slettet."
 
 #: ckan/controllers/group.py:774 ckan/controllers/package.py:435
 msgid "Select two revisions before doing the comparison."
@@ -1058,11 +1058,11 @@ msgstr "Vælg to revisioner før sammenligning."
 
 #: ckan/controllers/group.py:798
 msgid "CKAN Group Revision History"
-msgstr "Revisionshistorik for CKAN-gruppen"
+msgstr "Revisionshistorik for miljøtemaet"
 
 #: ckan/controllers/group.py:802
 msgid "Recent changes to CKAN Group: "
-msgstr "Nylige ændringer til CKAN gruppen:"
+msgstr "Nylige ændringer til miljøtemaet:"
 
 #: ckan/controllers/group.py:823 ckan/controllers/package.py:486
 msgid "Log message: "
@@ -1519,7 +1519,7 @@ msgstr "organisation"
 
 #: ckan/lib/mailer.py:151 ckan/templates/home/snippets/stats.html:23
 msgid "group"
-msgstr "gruppe"
+msgstr "miljøtema"
 
 #: ckan/lib/navl/dictization_functions.py:13
 #: ckan/lib/navl/dictization_functions.py:16
@@ -1618,7 +1618,7 @@ msgstr "Ressource"
 
 #: ckan/logic/validators.py:278
 msgid "That group name or ID does not exist."
-msgstr "Det gruppenavn eller id eksisterer ikke."
+msgstr "Det miljøtemanavn eller id eksisterer ikke."
 
 #: ckan/logic/validators.py:292
 msgid "Activity type"
@@ -1674,27 +1674,27 @@ msgstr "Duplikeret nøgle \"%s\""
 
 #: ckan/logic/validators.py:434
 msgid "Group name already exists in database"
-msgstr "Gruppenavnet findes allerede i databasen"
+msgstr "Miljøtemanavnet findes allerede i databasen"
 
 #: ckan/logic/validators.py:440
 #, python-format
 msgid "Tag \"%s\" length is less than minimum %s"
-msgstr "Længden på tag \"%s\" er kortere end minimum %s"
+msgstr "Længden på opgavetypen \"%s\" er kortere end minimum %s"
 
 #: ckan/logic/validators.py:444
 #, python-format
 msgid "Tag \"%s\" length is more than maximum %i"
-msgstr "Længden på tagget \"%s\" er mere end maksimalt %i"
+msgstr "Længden på opgavetypen \"%s\" er mere end maksimalt %i"
 
 #: ckan/logic/validators.py:452
 #, python-format
 msgid "Tag \"%s\" must be alphanumeric characters or symbols: -_."
-msgstr "Tagget \"%s\" må kun angives med alfanumeriske tegn og symbolerne: -_."
+msgstr "Opgavetypen \"%s\" må kun angives med alfanumeriske tegn og symbolerne: -_."
 
 #: ckan/logic/validators.py:460
 #, python-format
 msgid "Tag \"%s\" must not be uppercase"
-msgstr "Tagget \"%s\" kan ikke skrives med store bogstaver"
+msgstr "Opgavetypen \"%s\" kan ikke skrives med store bogstaver"
 
 #: ckan/logic/validators.py:568
 msgid "User names must be strings"
@@ -1757,7 +1757,7 @@ msgstr "Tag %s tilhører ikke vokabulariet %s"
 
 #: ckan/logic/validators.py:690
 msgid "No tag name"
-msgstr "Intet tag-navn"
+msgstr "Intet opgavetype-navn"
 
 #: ckan/logic/validators.py:703
 #, python-format
@@ -1851,7 +1851,7 @@ msgstr ""
 
 #: ckan/logic/action/create.py:869
 msgid "Trying to create an organization as a group"
-msgstr "Forsøger at oprette en organisation som en gruppe"
+msgstr "Forsøger at oprette en organisation som et miljøtema"
 
 #: ckan/logic/action/create.py:958
 msgid "You must supply a package id or name (parameter \"package\")."
@@ -1897,7 +1897,7 @@ msgstr "Bruger {username} eksisterer ikke."
 
 #: ckan/logic/action/create.py:1549 ckan/logic/action/create.py:1557
 msgid "You must be logged in to follow a group."
-msgstr "Du skal være logget ind for at følge en gruppe."
+msgstr "Du skal være logget ind for at følge et miljøtema."
 
 #: ckan/logic/action/delete.py:362 ckan/logic/action/get.py:263
 msgid "Package not found"
@@ -1921,7 +1921,7 @@ msgstr "Kan ikke finde vokabularium \"%s\""
 #: ckan/logic/action/delete.py:669
 #, python-format
 msgid "Could not find tag \"%s\""
-msgstr "Kan ikke finde tagget \"%s\""
+msgstr "Kan ikke finde opgavetypen \"%s\""
 
 #: ckan/logic/action/delete.py:682 ckan/logic/action/delete.py:686
 msgid "You must be logged in to unfollow something."
@@ -1980,7 +1980,7 @@ msgstr "Bruger %s ikke autoriseret til at oprette datakilder"
 #: ckan/logic/auth/create.py:31 ckan/logic/auth/update.py:56
 #, python-format
 msgid "User %s not authorized to edit these groups"
-msgstr "Bruger %s ikke autoriseret til at redigere disse grupper"
+msgstr "Bruger %s ikke autoriseret til at redigere disse miljøtemaer"
 
 #: ckan/logic/auth/create.py:38
 #, python-format
@@ -2010,7 +2010,7 @@ msgstr "Bruger %s ikke autoriseret til at redigere disse datakilder"
 #: ckan/logic/auth/create.py:119
 #, python-format
 msgid "User %s not authorized to create groups"
-msgstr "Bruger %s ikke autoriseret til at oprette grupper"
+msgstr "Bruger %s ikke autoriseret til at oprette miljøtemaer"
 
 #: ckan/logic/auth/create.py:129
 #, python-format
@@ -2027,7 +2027,7 @@ msgstr "Ikke autoriseret til at oprette brugere"
 
 #: ckan/logic/auth/create.py:191
 msgid "Group was not found."
-msgstr "Gruppen blev ikke fundet."
+msgstr "Miljøtemaet blev ikke fundet."
 
 #: ckan/logic/auth/create.py:225
 #, python-format
@@ -2037,7 +2037,7 @@ msgstr "Bruger %s ikke autoriseret til at tilføje medlemmer"
 #: ckan/logic/auth/create.py:252 ckan/logic/auth/update.py:131
 #, python-format
 msgid "User %s not authorized to edit group %s"
-msgstr "Bruger %s ikke autoriseret til at redigere gruppen %s"
+msgstr "Bruger %s ikke autoriseret til at redigere miljøtemaet %s"
 
 #: ckan/logic/auth/create.py:280
 #, python-format
@@ -2061,12 +2061,12 @@ msgstr "Bruger %s ikke autoriseret til at slette relation %s"
 #: ckan/logic/auth/delete.py:82
 #, python-format
 msgid "User %s not authorized to delete groups"
-msgstr "Bruger %s ikke autoriseret til at slette grupper"
+msgstr "Bruger %s ikke autoriseret til at slette miljøtemaer"
 
 #: ckan/logic/auth/delete.py:86
 #, python-format
 msgid "User %s not authorized to delete group %s"
-msgstr "Bruger %s ikke autoriseret til at slette gruppen %s"
+msgstr "Bruger %s ikke autoriseret til at slette miljøtemaet %s"
 
 #: ckan/logic/auth/delete.py:103
 #, python-format
@@ -2144,13 +2144,13 @@ msgstr "Bruger %s ikke autoriseret til at redigere organisationen %s"
 #: ckan/logic/auth/update.py:161
 #, python-format
 msgid "User %s not authorized to change state of group %s"
-msgstr "Bruger %s ikke autoriseret til at ændre status for gruppen %s"
+msgstr "Bruger %s ikke autoriseret til at ændre status for miljøtemaet %s"
 
 #: ckan/logic/auth/update.py:178
 #, python-format
 msgid "User %s not authorized to edit permissions of group %s"
 msgstr ""
-"Bruger %s ikke autoriseret til at redigere tilladelserne for gruppen %s"
+"Bruger %s ikke autoriseret til at redigere tilladelserne for miljøtemaet %s"
 
 #: ckan/logic/auth/update.py:206
 msgid "Have to be logged in to edit user"
@@ -2612,7 +2612,7 @@ msgstr "Søg"
 
 #: ckan/templates/header.html:100 ckan/templates/home/snippets/search.html:8
 msgid "Search datasets"
-msgstr ""
+msgstr "Søg datasæt"
 
 #: ckan/templates/header.html:101 ckan/templates/snippets/search_form.html:16
 msgid "Submit"
@@ -2885,15 +2885,15 @@ msgstr "Administratorer"
 
 #: ckan/templates/group/base_form_page.html:5
 msgid "Add a Group"
-msgstr "Tilføj en gruppe"
+msgstr "Tilføj et miljøtema"
 
 #: ckan/templates/group/base_form_page.html:10
 msgid "Group Form"
-msgstr "Gruppeformular"
+msgstr "Miljøtemaformular"
 
 #: ckan/templates/group/confirm_delete.html:11
 msgid "Are you sure you want to delete group - {name}?"
-msgstr "Er du sikker på, at du vil slette gruppen - {name}?"
+msgstr "Er du sikker på, at du vil slette miljøtemaet - {name}?"
 
 #: ckan/templates/group/confirm_delete_member.html:11
 #: ckan/templates/organization/confirm_delete_member.html:11
@@ -2910,11 +2910,11 @@ msgstr "Er du sikker på, at du vil slette medlemmet - {name}?"
 #: ckan/templates/user/edit.html:8 ckan/templates/user/edit_base.html:3
 #: ckan/templates/user/read_base.html:14
 msgid "Manage"
-msgstr "Administrer"
+msgstr "Redigér"
 
 #: ckan/templates/group/edit.html:12
 msgid "Edit Group"
-msgstr "Redigér gruppe"
+msgstr "Redigér miljøtema"
 
 #: ckan/templates/group/edit_base.html:21 ckan/templates/group/members.html:3
 #: ckan/templates/organization/edit_base.html:24
@@ -2925,15 +2925,15 @@ msgstr "Medlemmer"
 #: ckan/templates/group/index.html:13
 #: ckan/templates/user/dashboard_groups.html:7
 msgid "Add Group"
-msgstr "Tilføj gruppe"
+msgstr "Tilføj miljøtema"
 
 #: ckan/templates/group/index.html:20
 msgid "Search groups..."
-msgstr "Søg grupper..."
+msgstr "Søg miljøtemaer..."
 
 #: ckan/templates/group/index.html:29
 msgid "There are currently no groups for this site"
-msgstr "Der er i øjeblikket ingen grupper for dette site"
+msgstr "Der er i øjeblikket ingen miljøtemaer for dette site"
 
 #: ckan/templates/group/index.html:31
 #: ckan/templates/organization/index.html:31
@@ -3033,22 +3033,22 @@ msgid ""
 "organization members.</p> <p><strong>Member:</strong> Can add/remove "
 "datasets from groups</p>"
 msgstr ""
-" <p><strong>Admin:</strong> Kan redigere gruppeinformation og håndtere "
+" <p><strong>Admin:</strong> Kan redigere miljøtemainformation og håndtere "
 "organisationsmedlemmer.</p> <p><strong>Medlem:</strong> Kan tilføje/fjerne "
-"datasæt fra grupper</p> "
+"datasæt fra miljøtemaer</p> "
 
 #: ckan/templates/group/new.html:3 ckan/templates/group/new.html:5
 #: ckan/templates/group/new.html:7
 msgid "Create a Group"
-msgstr "Opret en gruppe"
+msgstr "Opret et miljøtema"
 
 #: ckan/templates/group/new_group_form.html:17
 msgid "Update Group"
-msgstr "Opdatér gruppe"
+msgstr "Opdatér miljøtema"
 
 #: ckan/templates/group/new_group_form.html:19
 msgid "Create Group"
-msgstr "Opret gruppe"
+msgstr "Opret miljøtema"
 
 #: ckan/templates/group/read.html:19 ckan/templates/organization/read.html:25
 #: ckan/templates/snippets/search_form.html:3
@@ -3057,7 +3057,7 @@ msgstr "Søg datasæt..."
 
 #: ckan/templates/group/snippets/feeds.html:2
 msgid "Datasets in group: {group}"
-msgstr "Datasæt i gruppe: {group}"
+msgstr "Datasæt i miljøtema: {group}"
 
 #: ckan/templates/group/snippets/group_form.html:10
 #: ckan/templates/organization/snippets/organization_form.html:10
@@ -3067,19 +3067,19 @@ msgstr "Navn"
 
 #: ckan/templates/group/snippets/group_form.html:10
 msgid "My Group"
-msgstr "Min gruppe"
+msgstr "Mit miljøtema"
 
 #: ckan/templates/group/snippets/group_form.html:20
 msgid "A little information about my group..."
-msgstr "Lidt information om min gruppe..."
+msgstr "Lidt information om mit miljøtema..."
 
 #: ckan/templates/group/snippets/group_form.html:38
 msgid "Are you sure you want to delete this Group?"
-msgstr "Er du sikker på, at du vil slette denne gruppe?"
+msgstr "Er du sikker på, at du vil slette dette miljøtema?"
 
 #: ckan/templates/group/snippets/group_form.html:41
 msgid "Save Group"
-msgstr "Gem gruppe"
+msgstr "Gem miljøtema"
 
 #: ckan/templates/group/snippets/group_item.html:38
 #: ckan/templates/group/snippets/group_item.html:39
@@ -3088,11 +3088,11 @@ msgstr "Se {name}"
 
 #: ckan/templates/group/snippets/group_item.html:43
 msgid "Remove dataset from this group"
-msgstr "Fjern datasæt fra denne gruppe"
+msgstr "Fjern datasæt fra dette miljøtema"
 
 #: ckan/templates/group/snippets/helper.html:4
 msgid "What are Groups?"
-msgstr "Hvad er grupper?"
+msgstr "Hvad er miljøtemaer?"
 
 #: ckan/templates/group/snippets/helper.html:8
 msgid ""
@@ -3101,7 +3101,7 @@ msgid ""
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets."
 msgstr ""
-"Du kan bruge CKAN Grupper til at oprette og håndtere samlinger af datasæt. "
+"Du kan bruge miljøtemaer til at oprette og håndtere samlinger af datasæt. "
 "Dette kan være datasæt for et givent projekt eller team, efter et bestemt "
 "tema eller som en meget simpel måde at hjælpe folk med at finde og søge "
 "efter dine egne publicerede datasæt."
@@ -3190,7 +3190,7 @@ msgstr ""
 
 #: ckan/templates/home/snippets/search.html:16
 msgid "Popular tags"
-msgstr ""
+msgstr "Populære opgavetyper"
 
 #: ckan/templates/home/snippets/stats.html:5
 msgid "{0} statistics"
@@ -3210,7 +3210,7 @@ msgstr "organisationer"
 
 #: ckan/templates/home/snippets/stats.html:23
 msgid "groups"
-msgstr "grupper"
+msgstr "miljøtemaer"
 
 #: ckan/templates/macros/form.html:54 ckan/templates/macros/form.html:287
 msgid "This field is required"
@@ -3500,15 +3500,15 @@ msgstr "Opdatér"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Associate this group with this dataset"
-msgstr "Forbind denne gruppe med dette datasæt"
+msgstr "Forbind dette miljøtema med dette datasæt"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Add to group"
-msgstr "Tilføj til gruppe"
+msgstr "Tilføj til miljøtema"
 
 #: ckan/templates/package/group_list.html:23
 msgid "There are no groups associated with this dataset"
-msgstr "Der er ingen grupper forbundet med dette datasæt"
+msgstr "Der er ingen miljøtemaer forbundet med dette datasæt"
 
 #: ckan/templates/package/new_package_form.html:13
 msgid "Update Dataset"
@@ -3516,7 +3516,7 @@ msgstr "Opdatér datasæt"
 
 #: ckan/templates/package/new_resource.html:5
 msgid "Add data to the dataset"
-msgstr "Tilføj data til datasættet"
+msgstr "Tilføj ressource til datasættet"
 
 #: ckan/templates/package/new_resource.html:11
 #: ckan/templates/package/new_resource_not_draft.html:8
@@ -3670,7 +3670,7 @@ msgstr "Oprettet"
 #: ckan/templates/package/snippets/resource_form.html:39
 #: ckan/templates/package/snippets/resource_info.html:19
 msgid "Format"
-msgstr "Format"
+msgstr "Datasættype"
 
 #: ckan/templates/package/resource_read.html:201
 #: ckan/templates/package/snippets/package_basic_fields.html:30
@@ -3921,7 +3921,7 @@ msgstr "Er du sikker på, at du vil slette dette datasæt?"
 
 #: ckan/templates/package/snippets/package_form.html:43
 msgid "Next: Add Data"
-msgstr "Næste: Tilføj data"
+msgstr "Næste: Tilføj ressource"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:6
 msgid "http://example.com/dataset.json"
@@ -4075,7 +4075,7 @@ msgstr ""
 
 #: ckan/templates/package/snippets/resources_list.html:14
 msgid "Data and Resources"
-msgstr "Data og ressourcer"
+msgstr "Ressourcer"
 
 #: ckan/templates/package/snippets/resources_list.html:31
 msgid "This dataset has no data"
@@ -4090,7 +4090,7 @@ msgstr "Opret datasæt"
 #: ckan/templates/package/snippets/stages.html:34
 #: ckan/templates/package/snippets/stages.html:36
 msgid "Add data"
-msgstr "Tilføj data"
+msgstr "Tilføj ressource"
 
 #: ckan/templates/package/snippets/view_form.html:8
 msgid "eg. My View"
@@ -4210,22 +4210,22 @@ msgstr "Ingen datasæt fundet"
 #: ckan/templates/snippets/search_result_text.html:21
 msgid "{number} group found for \"{query}\""
 msgid_plural "{number} groups found for \"{query}\""
-msgstr[0] "{number} gruppe fundet for \"{query}\""
-msgstr[1] "{number} grupper fundet for \"{query}\""
+msgstr[0] "{number} miljøtema fundet for \"{query}\""
+msgstr[1] "{number} miljøtemaer fundet for \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:22
 msgid "No groups found for \"{query}\""
-msgstr "Ingen grupper fundet for \"{query}\""
+msgstr "Ingen miljøtemaer fundet for \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:23
 msgid "{number} group found"
 msgid_plural "{number} groups found"
-msgstr[0] "{number} gruppe fundet"
-msgstr[1] "{number} grupper fundet"
+msgstr[0] "{number} miljøtema fundet"
+msgstr[1] "{number} miljøtemaer fundet"
 
 #: ckan/templates/snippets/search_result_text.html:24
 msgid "No groups found"
-msgstr "Ingen grupper fundet"
+msgstr "Ingen miljøtemaer fundet"
 
 #: ckan/templates/snippets/search_result_text.html:27
 msgid "{number} organization found for \"{query}\""
@@ -4268,11 +4268,11 @@ msgstr "RSS"
 
 #: ckan/templates/snippets/activities/added_tag.html:4
 msgid "{actor} added the tag {tag} to the dataset {dataset}"
-msgstr "{actor} føjede tagget {tag} til datasættet {dataset}"
+msgstr "{actor} føjede opgavetypen {tag} til datasættet {dataset}"
 
 #: ckan/templates/snippets/activities/changed_group.html:4
 msgid "{actor} updated the group {group}"
-msgstr "{actor} opdaterede gruppen {group}"
+msgstr "{actor} opdaterede miljøtemaet {group}"
 
 #: ckan/templates/snippets/activities/changed_organization.html:4
 msgid "{actor} updated the organization {organization}"
@@ -4297,7 +4297,7 @@ msgstr "{actor} opdaterede sin profil"
 
 #: ckan/templates/snippets/activities/deleted_group.html:4
 msgid "{actor} deleted the group {group}"
-msgstr "{actor} slettede gruppen {group}"
+msgstr "{actor} slettede miljøtemaet {group}"
 
 #: ckan/templates/snippets/activities/deleted_organization.html:4
 msgid "{actor} deleted the organization {organization}"
@@ -4329,7 +4329,7 @@ msgstr "{actor} følger nu {user}"
 
 #: ckan/templates/snippets/activities/new_group.html:4
 msgid "{actor} created the group {group}"
-msgstr "{actor} oprettede gruppen {group}"
+msgstr "{actor} oprettede miljøtemaet {group}"
 
 #: ckan/templates/snippets/activities/new_organization.html:4
 msgid "{actor} created the organization {organization}"
@@ -4349,7 +4349,7 @@ msgstr "{actor} registreret"
 
 #: ckan/templates/snippets/activities/removed_tag.html:4
 msgid "{actor} removed the tag {tag} from the dataset {dataset}"
-msgstr "{actor} fjernede tagget {tag} fra datasættet {dataset}"
+msgstr "{actor} fjernede opgavetypen {tag} fra datasættet {dataset}"
 
 #: ckan/templates/snippets/changes/author.html:5
 msgid "Set author of {pkg_link} to {new_author} (previously {old_author})"
@@ -4616,24 +4616,24 @@ msgstr ""
 
 #: ckan/templates/snippets/changes/tags.html:5
 msgid "Removed tag {tag_link} from {pkg_link}"
-msgstr ""
+msgstr "Fjernede opgavetypen {tag_link} fra {pkg_link}"
 
 #: ckan/templates/snippets/changes/tags.html:20
 msgid "Removed the following tags from {pkg_link}"
-msgstr ""
+msgstr "Fjernede følgende opgavetyper fra {pkg_link}"
 
 #: ckan/templates/snippets/changes/tags.html:31
 #: ckan/templates/snippets/changes/tags.html:70
 msgid "{tag_link}"
-msgstr ""
+msgstr "{tag_link}"
 
 #: ckan/templates/snippets/changes/tags.html:44
 msgid "Added tag {tag_link} to {pkg_link}"
-msgstr ""
+msgstr "Tilføjede opgavetypen {tag_link} til {pkg_link}"
 
 #: ckan/templates/snippets/changes/tags.html:59
 msgid "Added the following tags to {pkg_link}"
-msgstr ""
+msgstr "Tilføjede følgende opgavetyper til {pkg_link}"
 
 #: ckan/templates/snippets/changes/title.html:3
 msgid "Changed title to {title_link} (previously {old_title})"
@@ -4667,7 +4667,7 @@ msgstr ""
 
 #: ckan/templates/tag/index.html:33 ckan/templates/tag/index.html:34
 msgid "Search Tags"
-msgstr "Søg tags"
+msgstr "Søg opgavetyper"
 
 #: ckan/templates/user/api_tokens.html:19
 msgid "Create API Token"
@@ -4699,7 +4699,7 @@ msgstr "Mine organisationer"
 #: ckan/templates/user/dashboard.html:22
 #: ckan/templates/user/dashboard_groups.html:12
 msgid "My Groups"
-msgstr "Mine grupper"
+msgstr "Mine miljøtemaer"
 
 #: ckan/templates/user/dashboard.html:39
 msgid "Activity from items that I'm following"
@@ -4719,7 +4719,7 @@ msgstr "Opret et nu?"
 
 #: ckan/templates/user/dashboard_groups.html:20
 msgid "You are not a member of any groups."
-msgstr "Du er ikke medlem af nogle grupper."
+msgstr "Du er ikke medlem af nogle miljøtemaer."
 
 #: ckan/templates/user/dashboard_organizations.html:21
 msgid "You are not a member of any organizations."
@@ -4895,7 +4895,7 @@ msgstr "Hvorfor oprette sig?"
 
 #: ckan/templates/user/new.html:28
 msgid "Create datasets, groups and other exciting things"
-msgstr "Opret datasæt, grupper og andre spændende ting"
+msgstr "Opret datasæt, miljøtemaer og andre spændende ting"
 
 #: ckan/templates/user/new_user_form.html:5
 msgid "username"
