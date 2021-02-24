@@ -2584,7 +2584,7 @@ msgstr "Log ind"
 
 #: ckan/templates/header.html:54 ckan/templates/user/new.html:3
 msgid "Register"
-msgstr "Registrér"
+msgstr "Opret bruger"
 
 #: ckan/templates/group/read_base.html:17
 #: ckan/templates/group/snippets/info.html:38 ckan/templates/header.html:89
