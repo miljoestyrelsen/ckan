@@ -54,7 +54,7 @@ msgstr ""
 #: ckan/views/resource.py:920 ckanext/datapusher/blueprint.py:45
 #: ckanext/datastore/blueprint.py:115 ckanext/resourceproxy/blueprint.py:37
 msgid "Resource not found"
-msgstr "Ressourcen blev ikke fundet"
+msgstr "Distributionen blev ikke fundet"
 
 #: ckan/controllers/api.py:63 ckan/controllers/group.py:157
 #: ckan/controllers/home.py:27 ckan/controllers/package.py:144
@@ -149,7 +149,7 @@ msgstr "DataStore"
 
 #: ckanext/datastore/blueprint.py:89
 msgid "DataStore resource not found"
-msgstr "DataStore-ressourcen ikke fundet"
+msgstr "DataStore-distributionen ikke fundet"
 
 #: ckanext/datastore/blueprint.py:151
 msgid ""
@@ -164,11 +164,11 @@ msgstr ""
 #: ckanext/datastore/logic/action.py:277 ckanext/datastore/logic/action.py:309
 #: ckanext/datastore/logic/action.py:373 ckanext/datastore/logic/action.py:509
 msgid "Resource \"{0}\" was not found."
-msgstr "Ressource \"{0}\" blev ikke fundet."
+msgstr "Distributionen \"{0}\" blev ikke fundet."
 
 #: ckanext/datastore/logic/auth.py:18
 msgid "User {0} not authorized to update resource {1}"
-msgstr "Bruger {0} er ikke autoriseret til at opdatere ressourcen {1}"
+msgstr "Bruger {0} er ikke autoriseret til at opdatere distributionen {1}"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:19
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:21
@@ -178,7 +178,7 @@ msgstr "CKAN Data API"
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:23
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:25
 msgid "Access resource data via a web API with powerful query support"
-msgstr "Tilgå ressourcens data via et web-API med kraftfuld query-support"
+msgstr "Tilgå distributionens data via et web-API med kraftfuld query-support"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:24
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:26
@@ -487,7 +487,7 @@ msgstr "Følgere"
 #: ckan/templates/snippets/context/dataset.html:13
 #: ckanext/example_theme_docs/v18_snippet_api/templates/ajax_snippets/example_theme_popover.html:15
 msgid "Resources"
-msgstr "Ressourcer"
+msgstr "Distributioner"
 
 #: ckanext/expire_api_token/templates/user/api_tokens.html:6
 msgid "Second"
@@ -965,7 +965,7 @@ msgstr "Opgavetyper"
 #: ckan/controllers/package.py:259 ckan/lib/helpers.py:1252
 #: ckan/views/dataset.py:287 ckan/views/group.py:307 ckan/views/home.py:52
 msgid "Formats"
-msgstr "Ressourcetyper"
+msgstr "Distributionstyper"
 
 #: ckan/controllers/group.py:321 ckan/controllers/home.py:65
 #: ckan/controllers/package.py:260 ckan/lib/helpers.py:1253
@@ -1163,7 +1163,7 @@ msgstr "Ikke autoriseret til at oprette en datakilde"
 
 #: ckan/controllers/package.py:597 ckan/views/resource.py:377
 msgid "Unauthorized to edit this resource"
-msgstr "Ikke autoriseret til at redigere denne ressource"
+msgstr "Ikke autoriseret til at redigere denne distribution"
 
 #: ckan/controllers/package.py:665 ckan/views/resource.py:219
 msgid "Unauthorized to update dataset"
@@ -1177,11 +1177,11 @@ msgstr "Datasæt {id} blev ikke fundet."
 
 #: ckan/controllers/package.py:675 ckan/views/resource.py:227
 msgid "You must add at least one data resource"
-msgstr "Du skal tilføje mindst en dataressource"
+msgstr "Du skal tilføje mindst én distribution"
 
 #: ckan/controllers/package.py:706 ckan/views/resource.py:258
 msgid "Unauthorized to create a resource"
-msgstr "Ikke autoriseret til at oprette en ressource"
+msgstr "Ikke autoriseret til at oprette en distribution"
 
 #: ckan/controllers/package.py:739 ckan/views/resource.py:306
 msgid "Unauthorized to create a resource for this package"
@@ -1214,7 +1214,7 @@ msgstr "Resource er blevet slettet."
 #: ckan/views/resource.py:493
 #, python-format
 msgid "Unauthorized to delete resource %s"
-msgstr "Ikke autoriseret til at slette ressource %s"
+msgstr "Ikke autoriseret til at slette distribution %s"
 
 #: ckan/controllers/package.py:1135 ckan/controllers/package.py:1578
 #: ckan/views/resource.py:123 ckan/views/resource.py:602
@@ -1223,7 +1223,7 @@ msgstr ""
 
 #: ckan/controllers/package.py:1174
 msgid "Resource data not found"
-msgstr "Ressourcens data ikke fundet"
+msgstr "Distributionens data ikke fundet"
 
 #: ckan/controllers/package.py:1183 ckan/views/resource.py:177
 msgid "No download is available"
@@ -1237,7 +1237,7 @@ msgstr "Ikke autoriseret til at læse datasæt %s"
 #: ckan/controllers/package.py:1428 ckan/views/resource.py:547
 #, python-format
 msgid "Unauthorized to read resource %s"
-msgstr "Ikke autoriseret til at se ressourcen %s"
+msgstr "Ikke autoriseret til at se distributionen %s"
 
 #: ckan/controllers/package.py:1492 ckan/views/resource.py:697
 msgid "Unauthorized to edit resource"
@@ -1478,7 +1478,7 @@ msgstr "Ukendt"
 #: ckan/lib/helpers.py:1817
 #: ckan/templates/snippets/changes/new_resource.html:10
 msgid "Unnamed resource"
-msgstr "Unavngivet ressource"
+msgstr "Unavngivet distribution"
 
 #: ckan/lib/helpers.py:1856
 msgid "Created new dataset."
@@ -1486,7 +1486,7 @@ msgstr "Oprettede nyt datasæt."
 
 #: ckan/lib/helpers.py:1858
 msgid "Edited resources."
-msgstr "Redigerede ressourcer."
+msgstr "Redigerede distributioner."
 
 #: ckan/lib/helpers.py:1860
 msgid "Edited settings."
@@ -1550,7 +1550,7 @@ msgstr ""
 
 #: ckan/logic/__init__.py:103 ckan/logic/action/__init__.py:62
 msgid "Package resource(s) invalid"
-msgstr "Ugyldig(e) ressource(r) for datakilde"
+msgstr "Ugyldig(e) distributione(r) for datakilde"
 
 #: ckan/logic/__init__.py:110 ckan/logic/__init__.py:112
 #: ckan/logic/action/__init__.py:64 ckan/logic/action/__init__.py:66
@@ -1614,7 +1614,7 @@ msgstr ""
 
 #: ckan/logic/validators.py:224
 msgid "Resource"
-msgstr "Ressource"
+msgstr "Distribution"
 
 #: ckan/logic/validators.py:278
 msgid "That group name or ID does not exist."
@@ -1942,7 +1942,7 @@ msgstr ""
 #: ckan/logic/action/get.py:1097 ckan/logic/action/update.py:76
 #: ckan/logic/action/update.py:90
 msgid "Resource was not found."
-msgstr "Ressourcen blev ikke fundet."
+msgstr "Distributionen blev ikke fundet."
 
 #: ckan/logic/action/get.py:1176
 msgid "Parameter is not an bool"
@@ -1995,7 +1995,7 @@ msgstr ""
 #: ckan/logic/auth/get.py:137 ckan/logic/auth/update.py:79
 msgid "No package found for this resource, cannot check auth."
 msgstr ""
-"Ingen datakilde fundet til denne ressource, kan ikke tjekke autorisation."
+"Ingen datakilde fundet til denne distribution, kan ikke tjekke autorisation."
 
 #: ckan/logic/auth/create.py:76
 #, python-format
@@ -2047,7 +2047,7 @@ msgstr ""
 #: ckan/logic/auth/delete.py:40
 #, python-format
 msgid "User %s not authorized to delete resource %s"
-msgstr "Bruger %s ikke autoriseret til at slette ressourcen %s"
+msgstr "Bruger %s ikke autoriseret til at slette distributionen %s"
 
 #: ckan/logic/auth/delete.py:56 ckan/logic/auth/get.py:154
 msgid "Resource view not found, cannot check auth."
@@ -2105,7 +2105,7 @@ msgstr "Bruger %s ikke autoriseret til at læse datakilden %s"
 #: ckan/logic/auth/get.py:143
 #, python-format
 msgid "User %s not authorized to read resource %s"
-msgstr "Bruger %s ikke autoriseret til at læse ressourcen %s"
+msgstr "Bruger %s ikke autoriseret til at læse distributionen %s"
 
 #: ckan/logic/auth/get.py:177
 #, python-format
@@ -2129,7 +2129,7 @@ msgstr "Bruger %s ikke autoriseret til at redigere datakilden %s"
 #: ckan/logic/auth/update.py:87
 #, python-format
 msgid "User %s not authorized to edit resource %s"
-msgstr "Bruger %s ikke autoriseret til at redigere ressourcen %s"
+msgstr "Bruger %s ikke autoriseret til at redigere distributionen %s"
 
 #: ckan/logic/auth/update.py:116
 #, python-format
@@ -2292,7 +2292,7 @@ msgstr "Har sideordnet element %s"
 #: ckan/public/base/javascript/modules/api-info.js:96
 #: ckan/public/base/javascript/modules/api-info.min.js:2
 msgid "There is no API data to load for this resource"
-msgstr "Der er ingen API-data at indlæse for denne ressource"
+msgstr "Der er ingen API-data at indlæse for denne distribution"
 
 #: ckan/public/base/javascript/modules/api-info.js:124
 #: ckan/public/base/javascript/modules/api-info.min.js:4
@@ -2470,7 +2470,7 @@ msgstr "Ude af stand til at autentificere upload"
 #: ckan/public/base/javascript/modules/resource-upload-field.js:263
 #: ckan/public/base/javascript/modules/resource-upload-field.min.js:2
 msgid "Resource uploaded"
-msgstr "Ressource uploadet"
+msgstr "Distribution uploadet"
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:269
 #: ckan/public/base/javascript/modules/resource-upload-field.min.js:2
@@ -2584,7 +2584,7 @@ msgstr "Log ind"
 
 #: ckan/templates/header.html:54 ckan/templates/user/new.html:3
 msgid "Register"
-msgstr "Opret bruger"
+msgstr "Registrér"
 
 #: ckan/templates/group/read_base.html:17
 #: ckan/templates/group/snippets/info.html:38 ckan/templates/header.html:89
@@ -2774,7 +2774,7 @@ msgstr ""
 
 #: ckan/templates/dataviewer/snippets/data_preview.html:9
 msgid "This resource can not be previewed at the moment."
-msgstr "Denne ressource kan ikke forhåndsvises i øjeblikket."
+msgstr "Denne distribution kan ikke forhåndsvises i øjeblikket."
 
 #: ckan/templates/dataviewer/snippets/data_preview.html:11
 #: ckan/templates/package/resource_read.html:145
@@ -2785,7 +2785,7 @@ msgstr "Klik her for mere information."
 #: ckan/templates/dataviewer/snippets/data_preview.html:18
 #: ckan/templates/package/snippets/resource_view.html:41
 msgid "Download resource"
-msgstr "Download ressource"
+msgstr "Download distribution"
 
 #: ckan/templates/dataviewer/snippets/no_preview.html:3
 msgid "No preview available."
@@ -3450,7 +3450,7 @@ msgid ""
 "with a description and other information, at a fixed URL. Datasets are what "
 "users see when searching for data."
 msgstr ""
-"Et CKAN Datasæt er en samling af dataressourcer (som f.eks. filer), sammen "
+"Et CKAN Datasæt er en samling af distributioner (som f.eks. filer), sammen "
 "med en beskrivelse og andre informationer, som en statisk URL. Datasæt er "
 "hvad brugere ser, når de søger efter data."
 
@@ -3466,7 +3466,7 @@ msgstr "Er du sikker på, at du vil slette datasættet - {name}?"
 
 #: ckan/templates/package/confirm_delete_resource.html:11
 msgid "Are you sure you want to delete resource - {name}?"
-msgstr "Er du sikker på, at du vil slette ressourcen - {name}?"
+msgstr "Er du sikker på, at du vil slette distributionen - {name}?"
 
 #: ckan/templates/package/edit_base.html:13
 msgid "View dataset"
@@ -3516,21 +3516,21 @@ msgstr "Opdatér datasæt"
 
 #: ckan/templates/package/new_resource.html:5
 msgid "Add data to the dataset"
-msgstr "Tilføj ressource til datasættet"
+msgstr "Tilføj distribution til datasættet"
 
 #: ckan/templates/package/new_resource.html:11
 #: ckan/templates/package/new_resource_not_draft.html:8
 msgid "Add New Resource"
-msgstr "Tilføj ny ressource"
+msgstr "Tilføj ny distribution"
 
 #: ckan/templates/package/new_resource_not_draft.html:3
 #: ckan/templates/package/new_resource_not_draft.html:4
 msgid "Add resource"
-msgstr "Tilføj ressource"
+msgstr "Tilføj distribution"
 
 #: ckan/templates/package/new_resource_not_draft.html:16
 msgid "New resource"
-msgstr "Ny ressource"
+msgstr "Ny distribution"
 
 #: ckan/templates/package/new_view.html:3
 #: ckan/templates/package/new_view.html:4
@@ -3563,16 +3563,16 @@ msgstr ""
 
 #: ckan/templates/package/resource_edit_base.html:17
 msgid "All resources"
-msgstr "Alle ressourcer"
+msgstr "Alle distributioner"
 
 #: ckan/templates/package/resource_edit_base.html:19
 msgid "View resource"
-msgstr "Se ressource"
+msgstr "Se distribution"
 
 #: ckan/templates/package/resource_edit_base.html:24
 #: ckan/templates/package/resource_edit_base.html:30
 msgid "Edit resource"
-msgstr "Redigér ressource"
+msgstr "Redigér distribution"
 
 #: ckan/templates/package/resource_edit_base.html:26
 msgid "Views"
@@ -3585,7 +3585,7 @@ msgstr "API Endpoint"
 #: ckan/templates/package/resource_read.html:42
 #: ckan/templates/package/snippets/resource_item.html:61
 msgid "Go to resource"
-msgstr "Gå til ressource"
+msgstr "Gå til distribution"
 
 #: ckan/templates/package/resource_read.html:44
 #: ckan/templates/package/snippets/resource_item.html:58
@@ -3688,7 +3688,7 @@ msgstr ""
 
 #: ckan/templates/package/resources.html:8
 msgid "Add new resource"
-msgstr "Tilføj ny ressource"
+msgstr "Tilføj ny distribution"
 
 #: ckan/templates/package/resources.html:20
 #: ckan/templates/package/snippets/resources_list.html:27
@@ -3921,7 +3921,7 @@ msgstr "Er du sikker på, at du vil slette dette datasæt?"
 
 #: ckan/templates/package/snippets/package_form.html:43
 msgid "Next: Add Data"
-msgstr "Næste: Tilføj ressource"
+msgstr "Næste: Tilføj distribution"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:6
 msgid "http://example.com/dataset.json"
@@ -3953,7 +3953,7 @@ msgstr "Vedligeholders e-mail"
 
 #: ckan/templates/package/snippets/resource_edit_form.html:12
 msgid "Update Resource"
-msgstr "Opdatér ressource"
+msgstr "Opdatér distribution"
 
 #: ckan/templates/package/snippets/resource_form.html:26
 msgid "Data"
@@ -4003,7 +4003,7 @@ msgstr "f.eks. application/json"
 
 #: ckan/templates/package/snippets/resource_form.html:67
 msgid "Are you sure you want to delete this resource?"
-msgstr "Er du sikker på, at du vil slette denne ressource?"
+msgstr "Er du sikker på, at du vil slette denne distribution?"
 
 #: ckan/templates/package/snippets/resource_form.html:73
 msgid "Previous"
@@ -4019,13 +4019,12 @@ msgstr "Afslut"
 
 #: ckan/templates/package/snippets/resource_help.html:2
 msgid "What's a resource?"
-msgstr "Hvad er en ressource?"
+msgstr "Hvad er en distribution?"
 
 #: ckan/templates/package/snippets/resource_help.html:4
 msgid "A resource can be any file or link to a file containing useful data."
 msgstr ""
-"En ressource kan være en fil eller et link til en fil, der indeholder "
-"brugbar data."
+"En distribution er et link til datasættet. "
 
 #: ckan/templates/package/snippets/resource_item.html:37
 msgid "Explore"
@@ -4075,7 +4074,7 @@ msgstr ""
 
 #: ckan/templates/package/snippets/resources_list.html:14
 msgid "Data and Resources"
-msgstr "Ressourcer"
+msgstr "Distributioner"
 
 #: ckan/templates/package/snippets/resources_list.html:31
 msgid "This dataset has no data"
@@ -4090,7 +4089,7 @@ msgstr "Opret datasæt"
 #: ckan/templates/package/snippets/stages.html:34
 #: ckan/templates/package/snippets/stages.html:36
 msgid "Add data"
-msgstr "Tilføj ressource"
+msgstr "Tilføj distribution"
 
 #: ckan/templates/package/snippets/view_form.html:8
 msgid "eg. My View"
@@ -4289,7 +4288,7 @@ msgstr ""
 
 #: ckan/templates/snippets/activities/changed_resource.html:4
 msgid "{actor} updated the resource {resource} in the dataset {dataset}"
-msgstr "{actor} opdaterede ressourcen {resource} i datasættet {dataset}"
+msgstr "{actor} opdaterede distributionen {resource} i datasættet {dataset}"
 
 #: ckan/templates/snippets/activities/changed_user.html:4
 msgid "{actor} updated their profile"
@@ -4309,7 +4308,7 @@ msgstr "{actor} slettede datasættet {dataset}"
 
 #: ckan/templates/snippets/activities/deleted_resource.html:4
 msgid "{actor} deleted the resource {resource} from the dataset {dataset}"
-msgstr "{actor} slettede ressourcen {resource} fra datasættet {dataset}"
+msgstr "{actor} slettede distributionen {resource} fra datasættet {dataset}"
 
 #: ckan/templates/snippets/activities/fallback.html:14
 msgid "{actor} {activity_type}"
@@ -4341,7 +4340,7 @@ msgstr "{actor} oprettede datasættet {dataset}"
 
 #: ckan/templates/snippets/activities/new_resource.html:4
 msgid "{actor} added the resource {resource} to the dataset {dataset}"
-msgstr "{actor} føjede ressourcen {resource} til datasættet {dataset}"
+msgstr "{actor} føjede distributionen {resource} til datasættet {dataset}"
 
 #: ckan/templates/snippets/activities/new_user.html:4
 msgid "{actor} signed up"
